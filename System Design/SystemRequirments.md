@@ -1,27 +1,27 @@
 # Software Requirements Specification (SRS)
 
 ## 1. Introduction
-**Purpose**: 
-    This document specifies the requirements for the ElderAid software and hardware system, which is designed to provide a comprehensive solution for elderly care and support.
-**Scope**: 
-    The system will read information form multiple sensory devices then depending on certain logic stored in the microprocessor, it issues actions to help and support the elderly person in moments of need.
-**Definitions, Acronyms, and Abbreviations**:
-    CRM - Customer Relationship Management.
-**References**:
-    [Link to related document]
-**Overview**:
-    This document includes the overall description, specific requirements, and appendices.
+**Purpose**:    
+    This document specifies the requirements for the ElderAid software and hardware system, which is designed to provide a comprehensive solution for elderly care and support. 
+**Scope**:  
+    The system will read information form multiple sensory devices then depending on certain logic stored in the microprocessor, it issues actions to help and support the elderly person in moments of need.   
+**Definitions, Acronyms, and Abbreviations**:   
+    CRM - Customer Relationship Management. 
+**References**: 
+    [Link to related document]  
+**Overview**:   
+    This document includes the overall description, specific requirements, and appendices.  
 
 ## 2. Overall Description
-**Product Perspective**: 
-    The elderAid system consist of a sensory device portable by the user which monitors it's state, wirelessly connected to a microprocessor unit, that can send for aid i cases of need.  
-**Product Functions**: 
-    track the movements of user, monitor sound and emergency click, send for help from the caretaker, call emergency services.
-**User Characteristics**: 
-    elderly people, people with special-needs. 
-**Constraints**: 
-    must use microprocessor.
-**Assumptions and Dependencies**: 
+**Product Perspective**:    
+    The elderAid system consist of a sensory device portable by the user which monitors it's state, wirelessly connected to a microprocessor unit, that can send for aid i cases of need.   
+**Product Functions**:  
+    track the movements of user, monitor sound and emergency click, send for help from the caretaker, call emergency services.  
+**User Characteristics**:   
+    elderly people, people with special-needs.  
+**Constraints**:    
+    must use microprocessor.    
+**Assumptions and Dependencies**:   
     ---
 
 ## 3. Specific Requirements
