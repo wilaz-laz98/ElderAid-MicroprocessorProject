@@ -41,35 +41,32 @@
 - **Steps**: button is pushed 2 or more time, declare emergency status and notify care takers.
 - **Acceptance Criteria**: successful interpertation of clicks to send for help
 
-**Use Case 2**: send SMS note
+**Use Case 4**: send SMS note
 - **Description**:the control unit of the system sends notification via SMS.
 - **Steps**: get user status, notify caretaker via SMS.
 - **Acceptance Criteria**: recieved message at the caretaker phone.
 
-**Use Case 2**: calling emergency services
+**Use Case 5**: calling emergency services
 - **Description**:the control unit of the system is able to issue an automatic voice call to emergency services.
 - **Steps**: get user status, make phone call to emergency services.
 - **Acceptance Criteria**: recieved call at the emergency phone line.
 
 ### Non-Functional Requirements
-**Performance Requirements**: The system must be able to efficiently and quickly identify an emergency situation.
-**Usability Requirements**: The system should be intuitive and easy to use, portability.
-**Reliability Requirements**: System uptime must be 99.9%.
+**Performance Requirements**: The system must be able to efficiently and quickly identify an emergency situation.   
+**Usability Requirements**: The system should be intuitive and easy to use, portability.    
+**Reliability Requirements**: System uptime must be 99.9%.  
 
 ### External Interface Requirements
-**User Interfaces**: ?
-**Hardware Interfaces**: ?
-**Software Interfaces**: ?
-**Communication Interfaces**: ?
+**User Interfaces**: ?  
+**Hardware Interfaces**: ?  
+**Software Interfaces**: ?  
+**Communication Interfaces**: ? 
 
 
 ## 6. Appendices
-**Appendix A**: Glossary of terms.
-**Appendix B**: Data flow diagrams.
-**Appendix C**: Sample data.
+**Appendix A**: Glossary of terms.  
+**Appendix B**: Data flow diagrams. 
+**Appendix C**: Sample data.    
 
 ## 7. Index
-- User login: 3.1
-- Add new customer: 3.2
-- Customer Data Management: 4.1
-- Reporting: 4.2
+-?  
