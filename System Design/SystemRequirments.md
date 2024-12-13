@@ -2,13 +2,13 @@
 
 ## 1. Introduction
 **Purpose**:    
-    This document specifies the requirements for the ElderAid software and hardware system, which is designed to provide a comprehensive solution for elderly care and support. 
+    This document specifies the requirements for the ElderAid software and hardware system, which is designed to provide a comprehensive solution for elderly care and support.     
 **Scope**:  
     The system will read information form multiple sensory devices then depending on certain logic stored in the microprocessor, it issues actions to help and support the elderly person in moments of need.   
 **Definitions, Acronyms, and Abbreviations**:   
-    CRM - Customer Relationship Management. 
-**References**: 
-    [Link to related document]  
+    ?   
+**References**:     
+    ?     
 **Overview**:   
     This document includes the overall description, specific requirements, and appendices.  
 
