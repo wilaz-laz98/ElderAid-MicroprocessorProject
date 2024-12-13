@@ -18,11 +18,12 @@
 **Product Functions**:  
     track the movements of user, monitor sound and emergency click, send for help from the caretaker, call emergency services.  
 **User Characteristics**:   
-    elderly people, people with special-needs.  
+    -elderly people, 
+    -people with special\-needs.  
 **Constraints**:    
     must use microprocessor.    
 **Assumptions and Dependencies**:   
-    ---
+    -assuming user is restricted into a distance limited area like home.    
 
 ## 3. Specific Requirements
 ### Functional Requirements
