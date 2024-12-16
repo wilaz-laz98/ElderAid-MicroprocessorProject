@@ -1,7 +1,7 @@
 # ARCHITECTURE D'UN SYSTÈME INFORMATIQUE
 Ce document met en évidence les étapes essentielles pour architecturer/concevoir un système informatique évolutif, maintenable et efficace. Il s'agit d'un guide pour les professionnels de l'informatique et les architectes système qui souhaitent concevoir un système informatique robuste et évolutif.
 
-# Vision de Produit \-**a préparer**\-
+# Vision de Produit \-**A PREPARER?**\-
 **VISION STATEMENT**:
 |**Target**|**Needs**|**Product**|**Bussiness Goals**|
 |----------|---------|-----------|-------------------|
