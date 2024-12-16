@@ -1,7 +1,7 @@
 # ARCHITECTURE D'UN SYSTÈME INFORMATIQUE
 Ce document met en évidence les étapes essentielles pour architecturer/concevoir un système informatique évolutif, maintenable et efficace. Il s'agit d'un guide pour les professionnels de l'informatique et les architectes système qui souhaitent concevoir un système informatique robuste et évolutif.
 
-# Vision de Produit 
+# Vision de Produit \-**a préparer**\-
 **VISION STATEMENT**:
 |**Target**|**Needs**|**Product**|**Bussiness Goals**|
 |----------|---------|-----------|-------------------|
@@ -11,11 +11,11 @@ Ce document met en évidence les étapes essentielles pour architecturer/concevo
 ## Étape 1 : Définir les exigences du système
 La première étape de la conception d'un système informatique consiste à définir les exigences du système. Cela inclut l'identification de l'objectif, des fonctionnalités et des exigences de performance du système. Les exigences du système doivent être documentées de manière claire et concise, y compris les exigences fonctionnelles et non fonctionnelles du système.
 
-### 1. Exigences Fonctionnelles **A AJOUTER?**
+### 1. Exigences Fonctionnelles \-**A AJOUTER?**\-
 
-### 2. Exigences Non Fonctionnelles **A AJOUTER?**
+### 2. Exigences Non Fonctionnelles \-**A AJOUTER?**\-
 
-### 3. Cas d'Utilisation **A VERIFIER?**
+### 3. Cas d'Utilisation \-**A VERIFIER?**\-
 #### Cas d'utilisation 1 : lire le mouvement de l'utilisateur
 
 - **Description** : la partie portable du système enregistre constamment le mouvement de l'utilisateur.
@@ -146,7 +146,7 @@ La documentation et la formation consistent à créer la documentation pour le s
 
 ### 3. Base de Connaissances
 Cette section a de bute de donnée une description resumé de l'ensembles des approches utilisées durant l'execution de ce projet:
-#### Framework SCRUM **A LIRE?**
+#### Framework Agile SCRUM \-**A LIRE?**\-
 
 1. **Préparation et Planification** :
 
