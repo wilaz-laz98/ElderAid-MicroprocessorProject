@@ -3,10 +3,9 @@ Ce document met en évidence les étapes essentielles pour architecturer/concevo
 
 # Vision de Produit 
 |**VISION STATEMENT**||
-|------------------|
 |**Target**|**Needs**|**Product**|**Bussiness Goals**|
 |----------|---------|-----------|-------------------|
-
+| someone|something|something |somthing|
 
 ------------------------------------------------------------------------------------------
 ## Étape 1 : Définir les exigences du système
