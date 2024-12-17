@@ -3,7 +3,7 @@
 L'HW-084 est un module RTC (Real Time Clock) basé sur le DS3231, une horloge temps réel très précise. Il est conçu pour conserver l'heure et la date de manière fiable, même en cas de coupure d'alimentation, grâce à une pile de sauvegarde.
 
 ## Caractéristiques principales du HW-084 (DS3231) :
-
+ 
 **1.	Circuit intégré DS3231 :**
 o	RTC avec oscillateur à quartz intégré, ce qui le rend extrêmement précis.
 o	Précision : ± 2 ppm (parties par million), soit une dérive d'environ 1 minute par an.
