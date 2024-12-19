@@ -11,9 +11,53 @@ Ce document met en évidence les étapes essentielles pour architecturer/concevo
 ## Étape 1 : Définir les exigences du système
 La première étape de la conception d'un système informatique consiste à définir les exigences du système. Cela inclut l'identification de l'objectif, des fonctionnalités et des exigences de performance du système. Les exigences du système doivent être documentées de manière claire et concise, y compris les exigences fonctionnelles et non fonctionnelles du système.
 
-### 1. Exigences Fonctionnelles \-**A AJOUTER?**\-
+### 1. Exigences Fonctionnelles
+#### Fonction 01: Détection de Mouvement
+- Détecter et enregistrer le mouvement de l'utilisateur.
 
-### 2. Exigences Non Fonctionnelles \-**A AJOUTER?**\-
+- Notifier le soignant si l'utilisateur s'éloigne d'une distance prédéfinie.
+
+- Alerter les services d'urgence et le soignant si l'utilisateur tombe.
+
+#### Fonction 02: Détection de Son
+
+- Surveiller et enregistrer en continu le son autour de l'utilisateur.
+
+- Notifier le soignant si l'utilisateur pleure ou si une voix inconnue est détectée.
+
+#### Fonction 03: Bouton d'Urgence
+
+- Fournir un bouton que l'utilisateur peut presser pour appeler à l'aide.
+
+- Annuler les autres capteurs et notifier immédiatement le soignant et les services d'urgence si le bouton est pressé plusieurs fois.
+
+#### Fonction 04: Suivi de Localisation :
+
+- Suivre la localisation exacte de l'utilisateur en temps réel.
+
+- Fournir des mises à jour de localisation au soignant.
+
+#### Fonction 05: Communication :
+
+- Envoyer des notifications SMS au soignant.
+
+- Passer des appels vocaux automatiques aux services d'urgence.
+
+### 2. Exigences Non Fonctionnelles 
+#### Scalabilité :
+Le système doit pouvoir gérer plusieurs utilisateurs simultanément.
+
+#### Fiabilité :
+Assurer une haute disponibilité et fiabilité du système pour une surveillance continue.
+
+#### Sécurité :
+Protéger les données des utilisateurs et assurer une communication sécurisée entre les dispositifs et les services.
+
+#### Utilisabilité :
+Le système doit être facile à utiliser pour les utilisateurs âgés avec des connaissances techniques minimales.
+
+#### Performance :
+Le système doit fournir des alertes et des mises à jour en temps réel sans délais significatifs.
 
 ### 3. Cas d'Utilisation \-**A VERIFIER?**\-
 #### Cas d'utilisation 1 : lire le mouvement de l'utilisateur
@@ -77,16 +121,41 @@ La conception de l'architecture du système consiste à définir la structure et
 ### 1. Conception de Haut Niveau
 
 #### - Matériel
+- **Microcontrôleur ESP32**: L'unité centrale de traitement du système.
+
+- **Capteurs de Mouvement** : Pour détecter le mouvement de l'utilisateur.
+
+- **Microphone** : Pour surveiller et enregistrer le son.
+
+- **Bouton d'Urgence** : Pour que l'utilisateur puisse appeler à l'aide.
+
+- **Module GPS** : Pour suivre la localisation de l'utilisateur.
 
 #### - Logiciel
+- **Firmware** : Fonctionnant sur l'ESP32 pour gérer les données des capteurs, traiter les alertes et communiquer avec les services externes.
 
-### 2. Conception de Bas Niveau
+- **Application Mobile** : Pour que les soignants reçoivent des notifications et suivent la localisation de l'utilisateur.
 
-#### - Composants du Système
+- **Serveur Backend** : Pour gérer le stockage des données, traiter les alertes et gérer la communication avec l'application mobile et les services d'urgence.
+#### - Communication
 
-#### - Interfaces du Système
+- **Wi-Fi/Bluetooth** : Pour la communication entre l'ESP32 et l'application mobile.
 
-#### - Flux de Données
+- **Passerelle SMS** : Pour envoyer des notifications SMS.
+
+- **Service VoIP** : Pour passer des appels vocaux automatiques aux services d'urgence.
+
+
+- **Flux de Données**:
+1. Collecte des Données des Capteurs : Les capteurs de mouvement et le microphone collectent en continu des données.
+
+2. Traitement des Données : L'ESP32 traite les données pour détecter tout comportement anormal.
+
+3. Génération d'Alerte : Si un comportement anormal est détecté, l'ESP32 génère une alerte.
+
+4. Notification : L'alerte est envoyée au soignant via SMS et la localisation de l'utilisateur est mise à jour dans l'application mobile.
+
+5. Appel d'Urgence : Si nécessaire, un appel vocal automatique est passé aux services d'urgence.
 
 ------------------------------------------------------------------------------------------
 ## Étape 4 : Sélection de la technologie
