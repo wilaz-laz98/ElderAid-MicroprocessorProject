@@ -3,9 +3,10 @@ Ce document met en évidence les étapes essentielles pour architecturer/concevo
 
 # Vision de Produit \-**A PREPARER?**\-
 **VISION STATEMENT**:
-|**Target**|**Needs**|**Product**|**Bussiness Goals**|
-|----------|---------|-----------|-------------------|
-| someone|something|something |somthing|
+|**Target**|**Needs**|**Product**|
+|----------|---------|-----------|
+| gens andicapés|-independace|-braclet:|
+|gens agées|-portabilité| buzz button, microphone, capteur de mouvement, battery, localisation, moteur de vibration, GPS --- Controller: emergency alert, SIM|
 
 ------------------------------------------------------------------------------------------
 ## Étape 1 : Définir les exigences du système
