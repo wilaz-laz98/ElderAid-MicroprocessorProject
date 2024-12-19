@@ -120,7 +120,6 @@ Une étude de faisabilité est une enquête préliminaire sur la praticabilité 
 La conception de l'architecture du système consiste à définir la structure et l'organisation globales du système. Cela inclut l'identification des composants, des interfaces et des flux de données du système. L'architecture du système doit être conçue pour répondre aux exigences du système.
 
 ### 1. Conception de Haut Niveau
-
 #### - Matériel
 - **Microcontrôleur ESP32**: L'unité centrale de traitement du système.
 
@@ -147,7 +146,7 @@ La conception de l'architecture du système consiste à définir la structure et
 - **Service VoIP** : Pour passer des appels vocaux automatiques aux services d'urgence.
 
 
-- **Flux de Données**:
+#### - Flux de Données
 1. Collecte des Données des Capteurs : Les capteurs de mouvement et le microphone collectent en continu des données.
 
 2. Traitement des Données : L'ESP32 traite les données pour détecter tout comportement anormal.
